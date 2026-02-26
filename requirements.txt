@@ -1,0 +1,44 @@
+# RFP Automation Platform - Streamlit Cloud Requirements
+
+# Core Streamlit
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Charts and Visualization
+plotly>=5.17.0
+
+# HTTP Client
+requests>=2.31.0
+
+# Document Processing
+python-docx>=0.8.11
+
+# Authentication
+python-jose[cryptography]>=3.3.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# AI Integration
+google-generativeai>=0.3.0
+
+# Additional utilities
+python-multipart>=0.0.6
+
+# PDF handling
+PyMuPDF>=1.23.0
+PyPDF2>=3.0.0
+
+# OCR (optional, for scanned PDFs)
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# Vector DB / RAG
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Environment variables
+python-dotenv>=1.0.0
