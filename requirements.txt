@@ -3,6 +3,10 @@
 # Core Streamlit
 streamlit>=1.28.0
 
+# FastAPI (for backend logic in Streamlit)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
 # Data Processing
 pandas>=2.0.0
 numpy>=1.24.0
